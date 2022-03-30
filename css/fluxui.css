@@ -187,7 +187,6 @@ a {
   width: 100%;
 }
 #particles-js{
-  height: 100%;
   background: #c31432;  /* fallback for old browsers */
   background: -webkit-linear-gradient(270, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(270deg, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -7443,6 +7442,14 @@ a {
   /* background-image: url('../images/Mask-Group-104.png'); */
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 479px) {
+
+  .header_flxos{
+      height: 400px;
+  }
+
 }
 
 .header_flxos.os {
@@ -38079,6 +38086,10 @@ a {
 }
 
 @media screen and (max-width: 479px) {
+
+  .header_flxos{
+      height: 400px !important;
+  }
 
   .about-logo{
     margin-bottom: 30px;
