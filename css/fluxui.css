@@ -187,7 +187,7 @@ a {
   width: 100%;
 }
 #particles-js{
-  /* height: 400px; */
+  height: 100%;
   background: #c31432;  /* fallback for old browsers */
   background: -webkit-linear-gradient(270, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(270deg, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -1009,7 +1009,9 @@ a {
 }
 
 .about-logo{
-  margin-top: 160px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 .patients{
@@ -2381,7 +2383,7 @@ a {
   margin-bottom: 0.5em;
   font-family: Montserrat, sans-serif;
   color: #ffffff;
-  font-size: 2.6em;
+  /* font-size: 2.6em; */
   line-height: 1.1;
   text-align: left;
   font-weight: 200 !important;
@@ -22922,7 +22924,9 @@ a {
 }
 
 .patient-logo{
-  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px
 }
 
 .list-6 {
@@ -32689,7 +32693,7 @@ a {
 }
 
 @media screen and (max-width: 767px) {
-  
+
   .navbar.new {
     top: 0px;
   }
@@ -38075,8 +38079,11 @@ a {
 }
 
 @media screen and (max-width: 479px) {
- 
-  
+
+  .about-logo{
+    margin-bottom: 30px;
+  }
+
   .list-item-4{
     font-size: 20px !important;
   }
@@ -38090,6 +38097,7 @@ a {
   .body {
     font-size: 1.26vw;
   }
+  
   .patient-logo{
     margin-top: 0px;
     margin-bottom: 40px
@@ -49527,6 +49535,7 @@ a {
 }
 
 @media screen and (max-width: 767px) {
+  
  
   .patient-logo{
     margin-top: 0px;
@@ -50400,7 +50409,8 @@ a {
 }
 
 @media screen and (max-width: 479px) {
- 
+  
+
   #w-node-bbfaa08c-351e-2f69-b8e2-d23ce4ac56dd-c4cac3d9 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
