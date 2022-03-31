@@ -7444,14 +7444,6 @@ a {
   align-items: center;
 }
 
-@media screen and (max-width: 479px) {
-
-  .header_flxos{
-      height: 400px;
-  }
-
-}
-
 .header_flxos.os {
   height: 80vh;
   background-image: url('../images/node_background.svg');
@@ -23086,18 +23078,7 @@ a {
   box-shadow: 1px 1px 3px 0 rgba(37, 44, 97, 0.09);
   opacity: 0.62;
 }
-
-<<<<<<< HEAD
-@media screen and (min-width: 1920px) {
  
-  .body {
-    font-size: 1.1vw;
-  }
-=======
-.text-span-58 {
-  color: #36c9a5;
-}
->>>>>>> 4d314217e4a94e5717e2a374b9c61cc8b11817bc
 
 .details-right {
   position: absolute;
@@ -23874,8 +23855,8 @@ a {
   .patient-logo{
     margin-top: 0px;
     margin-bottom: 40px;
-    height: 300px;
-    width: 300px;
+    height: 450px !important;
+    width: 450px !important;
   }
   .body {
     font-size: 1.3vw;
@@ -24450,6 +24431,8 @@ a {
 }
 
 @media screen and (min-width: 1920px) {
+
+  
   .body {
     font-size: 1.1vw;
   }
@@ -24809,6 +24792,7 @@ a {
 }
 
 @media screen and (max-width: 991px) {
+  
   .body {
     font-size: 1.3vw;
   }
@@ -32700,6 +32684,7 @@ a {
 }
 
 @media screen and (max-width: 767px) {
+  
 
   .navbar.new {
     top: 0px;
@@ -38099,8 +38084,8 @@ a {
     font-size: 20px !important;
   }
   .patient-logo{
-    height: 250px !important;
-    width: 250px !important;
+    height: 350px !important;
+    width: 350px !important;
   }
   .list-6{
     margin-left: 5px !important;
@@ -48641,6 +48626,7 @@ a {
 }
 
 @media screen and (max-width: 991px) {
+  
   
   #w-node-_81408e82-007c-32e6-3e9c-be0947e3b4c8-c4cac3d9 {
     -ms-grid-column-align: auto;
