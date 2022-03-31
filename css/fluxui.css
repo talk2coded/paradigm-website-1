@@ -23855,8 +23855,8 @@ a {
   .patient-logo{
     margin-top: 0px;
     margin-bottom: 40px;
-    height: 300px !important;
-    width: 300px !important;
+    height: 450px !important;
+    width: 450px !important;
   }
   .body {
     font-size: 1.3vw;
@@ -24431,6 +24431,8 @@ a {
 }
 
 @media screen and (min-width: 1920px) {
+
+  
   .body {
     font-size: 1.1vw;
   }
@@ -24790,6 +24792,7 @@ a {
 }
 
 @media screen and (max-width: 991px) {
+  
   .body {
     font-size: 1.3vw;
   }
@@ -32681,6 +32684,7 @@ a {
 }
 
 @media screen and (max-width: 767px) {
+  
 
   .navbar.new {
     top: 0px;
@@ -38080,8 +38084,8 @@ a {
     font-size: 20px !important;
   }
   .patient-logo{
-    height: 250px !important;
-    width: 250px !important;
+    height: 350px !important;
+    width: 350px !important;
   }
   .list-6{
     margin-left: 5px !important;
@@ -48622,6 +48626,7 @@ a {
 }
 
 @media screen and (max-width: 991px) {
+  
   
   #w-node-_81408e82-007c-32e6-3e9c-be0947e3b4c8-c4cac3d9 {
     -ms-grid-column-align: auto;
